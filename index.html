@@ -46,7 +46,36 @@
                 <br> <br> <br>
                 
                 <h3> Black Hat Write-Up </h3>
-
+                    <br>
+                    <p style = "text-indent: 25px;">
+                       	For the black-hat visualization, we decided to focus on adolescent (ages 15-19) fertility rates and female life expectancy. The goal of the black hat visualization is to subtly 
+                        portray a relationship between these two unrelated variables and to paint certain countries and regions of the world in a worse light.
+                    </p>
+                    <br>
+                    <p style = "text-indent: 25px;">
+                        	The information is visualized using a map and bar chart. Starting with the map, each country is represented with a color and a circle mark of varying sizes. The color represents
+                             the adolescent fertility rate, and the size represents life expectancy. Color is represented with a green to red gradient, with red representing higher fertility rate, and green
+                              representing lower fertility rate. This scale was manually manipulated to adjust the “center” of the gradient to be lower, allowing for more countries to be marked as red, even
+                               if they are technically above the world average. This disproportionately shows entire regions of the world like Africa, South America, and parts of Asia as red. To further amplify 
+                               the focus on these areas, the size markings with circles are used. Large circles are directly stated as indicating lower life expectancy. While that is technically true, the actual 
+                               life expectancies were manipulated behind the scenes. They were first subtracted from 100 (100 - life exp.) and then squared, and these values were used for the size of the circle. 
+                               This made countries with smaller life expectancies appear disproportionately larger compared to those with higher life expectancies. This further brings focus to countries in Africa, 
+                               Asia, and parts of South America as they have large red circles while other places like China, USA, and Europe all have small, green circles that go unnoticed.
+                    </p>
+                    <br>
+                    <p style = "text-indent: 25px;">
+                        The bar chart further uses black hat techniques to push a narrative. First off, only the countries with the highest and lowest adolescent fertility rates for a given year are chosen. The color
+                         scheme is the exact same as that used by the map for consistency. Life expectancy, however, is represented differently compared to the map. While the data was altered in the map to make low life 
+                         expectancy mean a large mark, in the bar chart, low life expectancy means a skinnier bar, and high life expectancy means a larger bar. This inconsistency subtly pushes a narrative here that the 
+                         countries with the highest fertility rates have worse life expectancies. The life expectancy is manipulated mathematically similar to that for the map to exaggerate the differences.
+                    </p>
+                    <br>
+                    <p style = "text-indent: 25px;">
+                        Other details of the visualization subtly add to the black hat design. Wording choices like “the global connection”, “concentrations in the global south”, and “relationship between” all contribute 
+                        to the idea that the two factors are connected. Also, only a single year dropdown is available. This purposefully restricts viewers' ability to see change over time. If the viewer also chooses to 
+                        do a deep-dive into any specific country, the tool tip only shows the correct values and not the modified values. On the surface, everything appears trustworthy, but the underlying transformations 
+                        completely alter the message.	
+                    </p>
                 <br> <br> <br>
                 
                 <h3> Overview </h3>
