@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <head>
+         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gender Inequality Across the Globe: White Hat vs Black Hat</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="header">
+                <h1> Assignment 2: White Hat vs. Black Hat </h1>
+                <br>
+                <p> <u>White Hat Visualization:</u> </p> <a href = "https://public.tableau.com/app/profile/tiffany.lu2498/viz/TheInfluenceofGenderonGlobalEducationTrends/GlobalTrendsinFemaleEducationParticipation"> The Influence of Gender on Global Education Trend </a>
+                <br>
+                <br>
+                <p> <u>Black Hat Visualization:</u> </p> <a href = "https://public.tableau.com/app/profile/ryan.eldho/viz/Assignment2_17743916605120/Dashboard1#2"> The Global Connection between Female Adolescent (15-19) Fertility and Life Expectancy </a>
+                <br> <br> <br>
+                
+                <h3> White Hat Write-Up </h3>
+                    <br>
+                    <p style = "text-indent: 25px;">
+                        For our white-hat visualization, we used the dataset “Gender Equality Indicators 1960–2017.” This dataset includes a wide range of measures such as fertility rates, 
+                        literacy rates, and education metrics to reflect gender equality across countries. Instead of trying to include every variable, we focused specifically on education 
+                        by looking at enrollment and completion rates across different levels. The main measures we used were primary school enrollment rates, average number of children out 
+                        of school, and lower, upper, and post-secondary completion rates for both males and females. These measures help show whether youth in different countries are able to 
+                        access and complete education, and how those outcomes differ by gender.
+                    </p>
+                    <br>
+                    <p style = "text-indent: 25px;">
+                        To present this information clearly, we paid close attention to layout and color choices. Since the dashboard includes six graphs, we organized them in a way that guides 
+                        the viewer naturally. The layout follows a left-to-right and top-to-bottom structure, so users start in the top left and move across and down. There is also a clear visual 
+                        separation in the middle to reinforce this flow. All filters are placed in the top left since they control the entire dashboard, making them easy to find and use first. 
+                        Next to the filters, we included a legend to clarify that one color represents females and another represents males, since all graphs rely on comparing the two groups.
+                    </p>
+                    <br>
+                    <p style = "text-indent: 25px;">
+                        We also grouped the visualizations into two main sections: Access to Education and Completion of Education. Instead of presenting all graphs at once, we added short 
+                        descriptions for each section to help explain the overall patterns. The structure of the dashboard is intentional. We start with the gender gap index shown on the map, 
+                        and then move into more detailed charts like enrollment rates, out-of-school averages, and completion rates. This helps break down how the index is formed and what 
+                        contributes to it. To keep things transparent, we included the formula for the gender gap index at the bottom of the dashboard. Tooltips were also added to every graph to 
+                        display exact values and years, which helps users interpret smaller visuals more accurately. Lastly, we removed data from 2019 and 2020 due to a noticeable drop in available 
+                        data, since including those years could lead to misleading conclusions.
+                    </p>
+
+                <br> <br> <br>
+                
+                <h3> Black Hat Write-Up </h3>
+
+                <br> <br> <br>
+                
+                <h3> Overview </h3>
+
+                <br> <br> <br>
+                
+                <h3>References</h3>
+                <ul>
+                    <li> <a href = "https://github.com/light-and-salt/World-Bank-Data-by-Indicators/tree/master/gender">Gender Equality Indicators 1960-2017</a></li>
+                </ul>
+
+                </p>
+            </div>
+        </div>
+
+         <!-- Load D3.js and slider library before the module script -->
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/d3-svg-legend@2.25.6/d3-legend.min.js"></script>
+        <script src="https://unpkg.com/d3-simple-slider@2.0.0/dist/d3-simple-slider.min.js"></script>
+        <script type="module" src="js/script.js"></script>
+    </body>
+
+</html>

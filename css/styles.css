@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    list-style-position: inside;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container{
+    padding-top: 50px;
+}
+
+p {
+
+}
